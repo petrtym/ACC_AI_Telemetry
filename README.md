@@ -64,7 +64,7 @@ Open Telegram → [@acc_telemetry_bot](https://t.me/acc_telemetry_bot) → `/sta
 ### 2. Install
 
 ```cmd
-git clone https://github.com/YOUR_USERNAME/acc-telemetry-client
+git clone [https://github.com/petrtym/ACC_AI_Telemetry]
 cd acc-telemetry-client
 pip install requests python-dotenv
 ```
