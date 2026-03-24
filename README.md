@@ -158,23 +158,6 @@ You'll still get a warning message in Telegram when this happens.
 - `/newkey` in the bot invalidates your old key and generates a fresh one
 
 ---
-
-## Self-hosting
-
-Don't want to use `@acc_telemetry_bot`? Run your own instance.
-
-`bot_server.py` in this repo is the full server.
-
-```bash
-pip install aiogram aiohttp matplotlib python-dotenv
-cp .env.server.example .env   # fill BOT_TOKEN, optionally GEMINI_API_KEY
-bash install_service.sh       # systemd service on Linux VPS
-```
-
-Free Gemini API key: [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-
----
-
 ## Roadmap
 
 - [ ] `/export` — CSV download for ML / data analysis
