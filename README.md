@@ -138,8 +138,7 @@ Copy the key shown in the welcome message.
 ### 2. Install the client
 
 ```cmd
-git clone https://github.com/YOUR_USERNAME/acc-telemetry-client
-cd acc-telemetry-client
+git clone [https://github.com/petrtym/ACC_AI_Telemetry]
 
 pip install requests python-dotenv
 
